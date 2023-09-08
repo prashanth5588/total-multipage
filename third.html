@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>multipage app</title>
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.3/firebase-database.js"></script>
+        
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet"  type="text/css" href="third.css">
+        
+    </head>
+    
+    <body class="bg-container">
+        <div>
+            <button onclick="logout();" id = "logout" class="glyphicon glyphicon-log-out btn btn-secondary">Logout</button>
+            <center>
+                <h1>Third stage<sup><img src="2.image.jpg" height="35" width="35" style="border-radius: 8px;"></sup></h1>
+
+                <div class="output-up">
+                    <div id="output" class = "output-container"></div>
+                </div>
+                
+                
+            </center>
+        </div>
+        <center>
+            <div>
+                <label for="msg">Add the Content  : </label>
+                <input type="text" id="msg" class="form-control" placeholder="Enter here">
+                <button onclick="send()" class="btn btn-success">send Comment </button>
+            </div>
+        </center>
+
+        <script type="text/javascript" src="third.js"></script>
+    </body>
+</html>

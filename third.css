@@ -1,0 +1,51 @@
+.bg-container {
+    height: 100vw;
+    background-color: rgb(223, 106, 106);
+}
+
+.form-control {
+    height: 30px;
+    width: 800px;
+
+}
+
+.output-up {
+    width: 65vw;
+    min-height: 35vh;
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 25px;
+    text-align: left;
+
+}
+
+.use_click {
+    color: brown;
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+}
+
+.message_h4 {
+    color: blueviolet;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.name_h4 {
+    color: rgb(216, 8, 171);
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.output-container {
+    background-color: white;
+    width: fit-content;
+    border: 2px;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 10px;
+
+}
